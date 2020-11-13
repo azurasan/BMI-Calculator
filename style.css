@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1f1f1f;
+	color: #fff;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	justify-content: center;
+	height: 100vh;
+}
+
+.container h1,
+.btn {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.container h1 {
+	font-size: 3em;
+	margin: 5rem 0;
+	font-weight: 300;
+}
+
+.container .inputBoxs {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 3rem;
+}
+
+.container .inputBoxs .inputBox {
+	font-size: 1.2rem;
+}
+
+.container .inputBoxs .inputBox label {
+	font-size: 1.5em;
+}
+
+.container .inputBoxs .inputBox input {
+	font-size: 1.3rem;
+	width: 100%;
+	margin-top: 20px;
+	padding: 0.8rem 1rem;
+}
+
+.container .btn {
+	margin: auto;
+	margin-top: -20px;
+	margin-bottom: 50px;
+	width: 50%;
+	font-size: 1.5rem;
+	letter-spacing: 3px;
+	border: 1px solid #ff6331;
+	padding: 1rem 0;
+	cursor: pointer;
+}
+
+.container .btn:active {
+	background-color: #ff6331;
+	color: #1f1f1f;
+}
+
+.container .result {
+	font-size: 1.7rem;
+	font-weight: 600;
+	text-align: center;
+}
